@@ -1,0 +1,33 @@
+.cover-log{
+    display: -webkit-box; /* wkhtmltopdf uses this one */
+    -webkit-box-direction: row; /* WebKit */
+    -webkit-box-pack: center;
+}
+
+.cover-log img{
+    width: max-content;
+    height: 70px;
+}
+.page div{
+    border:0px !important;
+}
+
+.page h3 {
+    background-color: gray !important;
+    color: white !important;
+    
+}
+
+#totals tr{
+    background-color: white !important;
+}
+
+.gray thead tr{
+    background-color: gray !important;
+    color: #fff !important;
+}
+
+.gray thead td{
+    background-color: gray !important;
+}
+
